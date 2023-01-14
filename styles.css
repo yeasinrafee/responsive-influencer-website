@@ -236,9 +236,20 @@ nav{
         margin-bottom: 20px;
     }
 
+    /* Sponsor section */
     .sponsor-container{
         flex-direction: column;
         gap: 20px;
+    }
+
+    /* Collection Section */
+    .section-collection{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .collection-container{
+        grid-template-columns: repeat(1, 1fr);
+        justify-items: center;
     }
 }
 
@@ -284,5 +295,15 @@ nav{
     .sponsor-container{
         flex-direction: column;
         gap: 20px;
+    }
+
+    /* Collection Section */
+    .section-collection{
+        width: 100%;
+        margin-bottom: 50px;
+    }
+    .collection-container{
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
     }
 }
