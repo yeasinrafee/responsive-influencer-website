@@ -85,6 +85,18 @@ nav{
     z-index: -1;
 }
 
+/* Sponsor Styles */
+.sponsor-container{
+    margin-top: 70px;
+    padding: 36px 65px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border:1px solid rgba(0, 0, 0, 0.07);
+    border-left:150px solid transparent;
+    border-right:150px solid transparent;
+}
+
 
 
 /* Responsive Mobile (small device) */
@@ -149,6 +161,11 @@ nav{
         line-height: 21px;
         margin-bottom: 20px;
     }
+
+    .sponsor-container{
+        flex-direction: column;
+        gap: 20px;
+    }
 }
 
 /* Responsive Tablet (medium device) */
@@ -188,5 +205,10 @@ nav{
     }
     .banner-details{
         text-align: center;
+    }
+
+    .sponsor-container{
+        flex-direction: column;
+        gap: 20px;
     }
 }
