@@ -84,13 +84,13 @@ nav{
     top: -30px;
     z-index: -1;
 }
-.banner-img img{
-    z-index: 1;
-}
+
 
 
 /* Responsive Mobile (small device) */
 @media screen and (max-width: 688px) {
+
+    /* Navigation */
     nav{
         padding: 35px 16px;
     }
@@ -109,6 +109,45 @@ nav{
     }
     .logo h2{
         font-size: 16px;
+    }
+
+    /* Banner Section */
+    .section-banner{
+        padding: 0;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+    }
+    .banner-img{
+        padding: 22px 52px 14px 80px;
+        width: 100%;
+        margin: 0 auto;
+    }
+    .banner-img svg{
+        width: 257px;
+        height: 257px;
+        left: 58px;
+    }
+    .banner-img img{
+        width: 202px;
+        height: 190px;
+    }
+    .banner-details{
+        padding: 0 18px;
+        width: 100%;
+        text-align: center;
+    }
+    .heading-primary{
+        font-size: 28px;
+        line-height: 42px;
+    }
+    .banner-text{
+        font-size: 14px;
+        line-height: 21px;
+        margin-bottom: 20px;
     }
 }
 
