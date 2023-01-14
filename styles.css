@@ -64,3 +64,25 @@ nav{
         font-size: 16px;
     }
 }
+
+/* Responsive Tablet (medium device) */
+@media screen and (min-width: 689px) and (max-width: 992) {
+    nav{
+        padding: 35px 16px;
+    }
+    .nav-menu{
+        display: none;
+    }
+    .m-menu, .m-cart{
+        display: block;
+    }
+    .logo{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .logo h2{
+        font-size: 26px;
+    }
+}
