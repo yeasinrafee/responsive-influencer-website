@@ -173,6 +173,42 @@ nav{
     margin-top: 50px;
 }
 
+/* Featured Section Styles */
+.section-feature{
+    padding: 100px 166px;
+}
+.feature-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 96px;
+}
+.feature-img{
+    width: 404px;
+    height: 270px;
+}
+.feature-description{
+    width: 610px;
+    height: 224px;
+}
+.feature-heading{
+    font-weight: 700;
+    font-size: 38px;
+    color: #0A0826;
+    margin-bottom: 16px;
+}
+.feature-text{
+    font-size: 16px;
+    color: #6C6C6C;
+    margin-bottom: 16px;
+}
+.feature-btn{
+    padding: 10px 24px;
+    background-color: #E02C6D;
+    border: none;
+    color: #ffffff;
+}
+
 /* Responsive Mobile (small device) */
 @media screen and (max-width: 688px) {
 
