@@ -152,7 +152,7 @@ nav{
 }
 
 /* Responsive Tablet (medium device) */
-@media screen and (min-width: 689px) and (max-width: 992) {
+@media screen and (min-width: 689px) and (max-width: 982px) {
     nav{
         padding: 35px 16px;
     }
@@ -170,5 +170,23 @@ nav{
     }
     .logo h2{
         font-size: 26px;
+    }
+
+    /* Banner Section */
+    .section-banner{
+        padding: 0;
+    }
+    .banner-container{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        gap: 14px;
+        margin-top: 20px;
+    }
+    .banner-img{
+        margin-bottom: 20px;
+    }
+    .banner-details{
+        text-align: center;
     }
 }
